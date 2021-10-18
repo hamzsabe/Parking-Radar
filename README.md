@@ -1,6 +1,9 @@
 # Parking-Radar
 Pour aider aux manœuvres, on trouve de plus en plus d’appareils d’assistance appelés radar de recul. On propose d’en étudier un, réalisé à base de CPLD dont le contenu sera programmé en exploitant le langage Verilog. L'appareil génére un son, image de la distance entre notre appareil et un objet ou obstacle. Ce son devient de plus en plus aigu au fur et à mesure que l’on se rapproche.
+
+
 ![US](https://user-images.githubusercontent.com/71197125/137821730-2dea8890-7f1e-47d4-8d5d-42df353e2ec7.jpg)
+
 
 Pour cela, on utilisera les ultrasons. Le principe est simple, on émet une impulsion très courte à l’aide d’un transducteur ultrasonique et on récupère son écho (le signal impulsionnel réfléchi par un objet). On récupère à l’entrée de notre appareil les 2 signaux (Emit et Recept) porteurs d’impulsions décalées dans le temps. Emit est l’impulsion de départ et Recept représente son écho par l’objet.
 

@@ -14,3 +14,13 @@ Notre appareil devra générer dans un haut-parleur (HP), un son de fréquence d
 On envoie une impulsion chaque 2/10 de seconde (cette information n’intervient pas sur notre étude). Le dispositif de génération des impulsions et de mise en forme de la réception n’est pas l’objet du projet.
 
 ![Radar1](https://user-images.githubusercontent.com/71197125/137821822-1ed29305-9460-4ca5-b329-a3acad54f0fd.jpg)
+
+Remarques :
+
+à gauche, un obstacle est plus proche de notre radar que sur la partie droite (dT1 est plus petit que dT2). Le signal généré devra donc être plus aigu à gauche,
+on dispose, en plus des 2 signaux, d’une horloge de fréquence 1MHz.
+La compréhension complète de la présentation n’est pas nécessaire à la réalisation du programme. Les explications qui suivent peuvent à elles seules suffire pour réaliser la tâche.
+
+Le dispositif doit être opérationnel à partir d’un mètre jusqu’au contact. Si dT dépasse 6666, le haut parleur n’est pas piloté. La fréquence générée sera inversement proportionnelle à la distance (la période sera donc proportionnelle).
+
+On demande d’imaginer un dispositif qui génère un signal de période proportionnelle à la distance, qui soit tel que l’on ait 3kHz sur le haut-parleur pour 333µs (dT = 333).

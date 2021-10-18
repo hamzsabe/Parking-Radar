@@ -1,1 +1,2 @@
 # Parking-Radar
+Pour aider aux manœuvres, on trouve de plus en plus d’appareils d’assistance appelés radar de recul. On propose d’en étudier un, réalisé à base de CPLD dont le contenu sera programmé en exploitant le langage Verilog. L'appareil génére un son, image de la distance entre notre appareil et un objet ou obstacle. Ce son devient de plus en plus aigu au fur et à mesure que l’on se rapproche.

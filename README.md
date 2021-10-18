@@ -13,3 +13,4 @@ Notre appareil devra générer dans un haut-parleur (HP), un son de fréquence d
 
 On envoie une impulsion chaque 2/10 de seconde (cette information n’intervient pas sur notre étude). Le dispositif de génération des impulsions et de mise en forme de la réception n’est pas l’objet du projet.
 
+![Radar1](https://user-images.githubusercontent.com/71197125/137821822-1ed29305-9460-4ca5-b329-a3acad54f0fd.jpg)
